@@ -1,0 +1,39 @@
+
+# Python virtual environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Vector database and local data
+data/vectorstore/
+*.sqlite
+*.sqlite3
+*.db
+
+# Backup files
+*.bak
+*.backup
+backup/
+backups/
+
+# Large or copyrighted documents
+*.pdf
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Exclude local datasets and generated files
+data/raw/
+data/processed/
+data/vectorstore/
+data/evaluation/
+*.zip
+*.png
